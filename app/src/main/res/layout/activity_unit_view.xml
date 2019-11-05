@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".unitView">
+
+    <TextView
+        android:id="@+id/UnitName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/unit_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lec_name"
+        android:layout_width="192dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="196dp"
+        android:text="@string/lecturer_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ClassTime"
+        android:layout_width="133dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="256dp"
+        android:text="@string/time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ClassLocation"
+        android:layout_width="125dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="264dp"
+        android:text="@string/class_loc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/EventTitle"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="248dp"
+        android:text="@string/event"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Event"
+        android:layout_width="341dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/event_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

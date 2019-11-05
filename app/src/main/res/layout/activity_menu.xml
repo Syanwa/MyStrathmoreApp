@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/username_textview"
+        app:layout_constraintTop_toTopOf="@+id/username_textview"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <TextView
+        android:id="@+id/username_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/user_name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="174dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="220dp"
+        android:elevation="8dp"
+        android:onClick="profile_clk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="61dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/profile_img"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingTop="45dp"
+            android:text="@string/profile"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="174dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="24dp"
+        android:elevation="8dp"
+        android:onClick="timetable_clk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/timetable"
+            android:src="@drawable/timetable" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingTop="45dp"
+            android:text="@string/timetable"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="174dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="220dp"
+        android:elevation="8dp"
+        android:onClick="updates_clk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/timetable"
+            android:src="@drawable/events" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingTop="45dp"
+            android:text="@string/updates"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

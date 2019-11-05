@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">myStrath</string>
+    <string name="Student_email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="user_name">user_name</string>
+    <string name="profile">Profile</string>
+    <string name="profile_img">profile_img</string>
+    <string name="timetable">Timetable</string>
+    <string name="unit_name">unit_name</string>
+    <string name="lecturer_name">lecturer_name</string>
+    <string name="time">time</string>
+    <string name="event">Event</string>
+    <string name="event_desc">event_desc</string>
+    <string name="class_loc">class_loc</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">last_name</string>
+    <string name="email">email</string>
+    <string name="student_details">Student Details</string>
+    <string name="surname">Surname</string>
+    <string name="course">Course</string>
+    <string name="admission_year">Admission Year</string>
+    <string name="graduation_year">Graduation Year</string>
+    <string name="updatename">updateName</string>
+    <string name="updatetext">updateText</string>
+    <string name="events">Events</string>
+    <string name="updates">Updates</string>
+    <string name="updateunit">UpdateUnit</string>
+</resources>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "817921079501",
+    "firebase_url": "https://my-strathmore-app.firebaseio.com",
+    "project_id": "my-strathmore-app",
+    "storage_bucket": "my-strathmore-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817921079501:android:9fdb47ceb271d50b0a1184",
+        "android_client_info": {
+          "package_name": "com.example.MyStrathmoreApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817921079501-a6orjs6gn8aelol0c2fqh4kk9psh48qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.MyStrathmoreApp",
+            "certificate_hash": "c7efecdfe19340df86f97c0c680cf415dfc20953"
+          }
+        },
+        {
+          "client_id": "817921079501-gs4ovifhdijm082f5tomj4treghd2srl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFPTP7FE5H0dJbHkjYccxEDywo7jqZfOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817921079501-gs4ovifhdijm082f5tomj4treghd2srl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817921079501:android:b0f0cada39b2ca910a1184",
+        "android_client_info": {
+          "package_name": "com.example.mystrath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817921079501-880otk7a241lv9lk14rumkv477epejs4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mystrath",
+            "certificate_hash": "c7efecdfe19340df86f97c0c680cf415dfc20953"
+          }
+        },
+        {
+          "client_id": "817921079501-gs4ovifhdijm082f5tomj4treghd2srl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFPTP7FE5H0dJbHkjYccxEDywo7jqZfOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817921079501-gs4ovifhdijm082f5tomj4treghd2srl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
