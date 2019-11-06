@@ -43,8 +43,9 @@ public class profile extends AppCompatActivity {
         mGraduation_year = findViewById(R.id.graduation_YearTextView);
 
         //Call for SharedPreference
-        SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("preference_file_key", MODE_PRIVATE);
-        String user_email = sharedPreferences.getString("Email", "None");
+        SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("user_info", MODE_PRIVATE);
+        final String user_email = sharedPreferences.getString("Email", "None");
+
 
         mFirestore = FirebaseFirestore.getInstance();
         mFirestore.collection("users").whereEqualTo("Email",user_email)
@@ -65,9 +66,11 @@ public class profile extends AppCompatActivity {
 
                             personalise_profile(first_name,last_name,course,email,admission_year,graduation_year);
 
+
                         }
 
                     }
+
                 });
 
     }
@@ -81,6 +84,6 @@ public class profile extends AppCompatActivity {
         mGraduation_year.setText(graduation_year);
         mAdmission_year.setText(admission_year);
 
-        Log.d(TAG,course);
+
     }
 }
